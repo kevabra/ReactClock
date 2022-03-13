@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  background-color: pink;
+  color: white;
+}
+
+#label {
+  position: absolute;
+  top: 3vh;
+  font-size: 4em;
+  margin: 0;
+  color: purple;
+  left: 4vw;
+}
+
+#container {
+  display: grid;
+  width: 50vw;
+  margin: auto;
+  margin-top: 24vh;
+}
+
+#break-label {
+  border-radius: 1vw;
+  border: 3px solid black;
+  width: 30vw;
+  height: 23vh;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  text-align: center;
+  position: relative;
+  right: 10vw;
+}
+
+h2 {
+  display: inline;
+}
+
+button {
+  background: olive;
+}
+
+#break-increment {
+}
+
+#timer {
+  margin: auto;
+  margin-top: 10vh;
+  position: relative;
+  right: 15vw;
+  margin-left: 35vw;
+}
+
+#session-label {
+  border-radius: 1vw;
+  border: 3px solid black;
+  width: 30vw;
+  height: 23vh;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  text-align: center;
+  position: relative;
+  right: 20vw;
+  margin-left: 5vw;
+}
+
+#break-label h1 {
+  color: white;
+}
+
+#session-label h1 {
+  color: white;
+}
+
+img {
+  position: fixed;
+  top: 0vh;
+  width: 20vh;
+  left: 46vh;
+}
