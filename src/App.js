@@ -208,6 +208,16 @@ class Clock extends React.Component {
 
 
   render() {
+    
+    let timer = document.getElementById("time-left");
+    if (timer) {
+      if (this.state.minutes < 1) {
+        timer.style.color = "red";
+      }
+      else {
+        timer.style.color = "green";
+      }
+    }
     return (
       <div id="container">
         <h1 id="label">Clock</h1>
