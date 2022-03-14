@@ -238,6 +238,7 @@ class Clock extends React.Component {
           <h2 id="timer-label">{this.state.timerLabel}</h2>
           <h1 id="time-left">{this.state.minutes}:{this.state.seconds}</h1>
           <button id="start_stop" onClick={this.doStartStop}><i class="fa-solid fa-play"><i class="fa-solid fa-pause"></i></i></button>
+          <button id="reset" onClick={this.doReset}><i class="fa-solid fa-arrows-rotate"></i></button>
         </div>
       </div>
     );
