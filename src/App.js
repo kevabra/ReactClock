@@ -221,7 +221,6 @@ class Clock extends React.Component {
     return (
       <div id="container">
         <h1 id="label">Clock</h1>
-        <img src="https://tse2.mm.bing.net/th?id=OIP.32P28CvncblTGtzBEWhJTgHaH_&pid=Api&P=0&w=161&h=174" />
         <div id="break-label">
           <h1>Break Length</h1>
           <button id="break-increment" onClick={this.doBreakIncrement}><i class="fa-solid fa-arrow-up"></i></button>
@@ -233,6 +232,7 @@ class Clock extends React.Component {
           <button id="session-increment" onClick={this.doSessionIncrement}><i class="fa-solid fa-arrow-up"></i></button>
           <h2 id='session-length'>{this.state.sessionLength}</h2>
           <button id="session-decrement" onClick={this.doSessionDecrement}><i class="fa-solid fa-arrow-down"></i></button>
+          <audio src="//thumbs.dreamstime.com/audiothumb_10768/107689001.mp3" id="beep"/>
         </div>
         <div id="timer">
           <h2 id="timer-label">{this.state.timerLabel}</h2>
